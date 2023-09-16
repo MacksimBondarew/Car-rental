@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <h1>Maxim cool</h1>
+      <h1>I must to make this test task</h1>
     </>
   )
 }
