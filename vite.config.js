@@ -10,7 +10,7 @@ export default defineConfig({
   base: "/Car-rental",
   build: {
     rollupOptions: {
-      input: '/public/index.html', // Change 'src/main.js' to the actual path of your entry JavaScript file.
+      input: '/public/index.html',
     },
   },
 })
