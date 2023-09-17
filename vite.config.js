@@ -7,5 +7,10 @@ export default defineConfig({
   server: {
      port: 3000,
   },
-  base: "/Car-rental"
+  base: "/Car-rental",
+  build: {
+    rollupOptions: {
+      input: '/public/index.html', // Change 'src/main.js' to the actual path of your entry JavaScript file.
+    },
+  },
 })
